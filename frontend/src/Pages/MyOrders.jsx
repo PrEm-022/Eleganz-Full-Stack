@@ -11,12 +11,13 @@ const STATUS_STEPS = [
   "Delivered",
 ];
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
+
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const { currency } = useContext(ShopContext);
   const navigate = useNavigate();
-  const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
 
   const fetchUserOrders = async () => {
     const token = localStorage.getItem("auth-token");
@@ -49,6 +50,7 @@ const MyOrders = () => {
 
   useEffect(() => {
     fetchUserOrders();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getStepIndex = (status) => {

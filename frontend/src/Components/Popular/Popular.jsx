@@ -3,9 +3,10 @@ import './Popular.css';
 import fallbackData from '../Assets/data';
 import Item from '../Item/Item';
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
+
 const Popular = () => {
   const [popularProducts, setPopularProducts] = useState(fallbackData);
-  const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
 
   useEffect(() => {
     fetch(`${API_URL}/popularinwomen`)
