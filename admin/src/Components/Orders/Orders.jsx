@@ -12,10 +12,11 @@ const STATUS_OPTIONS = [
 const Orders = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:4000";
 
   const fetchOrders = async () => {
     try {
-      const response = await fetch("http://localhost:4000/listorders");
+      const response = await fetch(`${API_URL}/listorders`);
       const data = await response.json();
       if (data.success) {
         setOrders(data.orders);
@@ -33,7 +34,7 @@ const Orders = () => {
 
   const handleStatusChange = async (orderId, newStatus) => {
     try {
-      const response = await fetch("http://localhost:4000/updatestatus", {
+      const response = await fetch(`${API_URL}/updatestatus`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

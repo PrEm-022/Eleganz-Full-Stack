@@ -6,9 +6,10 @@ import Item from '../Item/Item';
 
 const NewCollections = () => {
   const [newCollection, setNewCollection] = useState([...new_collections1, ...new_collections2]);
+  const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
 
   useEffect(() => {
-    fetch('http://localhost:4000/newcollections')
+    fetch(`${API_URL}/newcollections`)
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data) && data.length > 0) {

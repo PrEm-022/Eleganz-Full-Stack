@@ -16,6 +16,7 @@ const MyOrders = () => {
   const [loading, setLoading] = useState(true);
   const { currency } = useContext(ShopContext);
   const navigate = useNavigate();
+  const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
 
   const fetchUserOrders = async () => {
     const token = localStorage.getItem("auth-token");
@@ -25,7 +26,7 @@ const MyOrders = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:4000/userorders", {
+      const response = await fetch(`${API_URL}/userorders`, {
         method: "POST",
         headers: {
           Accept: "application/json",
