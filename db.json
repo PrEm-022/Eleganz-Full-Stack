@@ -1,0 +1,500 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Dark Blue Mens Oversized Fur Jacket",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_1.png",
+      "new_price": 45,
+      "old_price": 60
+    },
+    {
+      "id": "2",
+      "name": "Brown Mens Leather Jacket",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_2.png",
+      "new_price": 40,
+      "old_price": 55
+    },
+    {
+      "id": "3",
+      "name": "Blue Coloured Stylish Denim Shirt",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_3.png",
+      "new_price": 40,
+      "old_price": 65
+    },
+    {
+      "id": "4",
+      "name": "Olive Coloured Mens Plain Shirt",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_4.png",
+      "new_price": 25,
+      "old_price": 30
+    },
+    {
+      "id": "5",
+      "name": "Mens White Polos",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_5.png",
+      "new_price": 40,
+      "old_price": 50
+    },
+    {
+      "id": "6",
+      "name": "Mens Brown Varsity Jacket",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_6.png",
+      "new_price": 65,
+      "old_price": 80
+    },
+    {
+      "id": "7",
+      "name": "Mens Oversized Grey Coloured T-Shirt",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_7.png",
+      "new_price": 40,
+      "old_price": 65
+    },
+    {
+      "id": "8",
+      "name": "Grey Coloured Mens Puffer Jacket",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_8.png",
+      "new_price": 55,
+      "old_price": 80
+    },
+    {
+      "id": "9",
+      "name": "Grey Coloured Mens Gymwear",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_9.png",
+      "new_price": 29,
+      "old_price": 49
+    },
+    {
+      "id": "10",
+      "name": "Floral Blue Beach Look Shirt",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_10.png",
+      "new_price": 45,
+      "old_price": 85
+    },
+    {
+      "id": "11",
+      "name": "Mens Korean Pleated Creame Pants",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_11.png",
+      "new_price": 70,
+      "old_price": 120
+    },
+    {
+      "id": "12",
+      "name": "Mens Denim Blue Baggy Pants",
+      "category": "Men",
+      "image": "/src/Components/Assets/product_12.png",
+      "new_price": 60,
+      "old_price": 100
+    },
+    {
+      "id": "13",
+      "name": "Brown Coloured Womens Cute Dress",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_13.png",
+      "new_price": 75,
+      "old_price": 125
+    },
+    {
+      "id": "14",
+      "name": "Womens Vintage Maroon Dress",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_14.png",
+      "new_price": 50,
+      "old_price": 75
+    },
+    {
+      "id": "15",
+      "name": "Womens Oversized Creme Flannel Shirt",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_15.png",
+      "new_price": 40,
+      "old_price": 60
+    },
+    {
+      "id": "16",
+      "name": "Bottle Green Womens Top",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_16.png",
+      "new_price": 30,
+      "old_price": 45
+    },
+    {
+      "id": "17",
+      "name": "Womens Oversized Coat",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_17.png",
+      "new_price": 99,
+      "old_price": 125
+    },
+    {
+      "id": "18",
+      "name": "Womens Stylish Blue Summer Dress",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_18.png",
+      "new_price": 30,
+      "old_price": 45
+    },
+    {
+      "id": "19",
+      "name": "Womens Pink Coloured Knitted Top",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_19.png",
+      "new_price": 40,
+      "old_price": 75
+    },
+    {
+      "id": "20",
+      "name": "Party Wear Pink Bodycon Dress",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_20.png",
+      "new_price": 120,
+      "old_price": 200
+    },
+    {
+      "id": "21",
+      "name": "Red Coloured Floral Print Dress",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_21.png",
+      "new_price": 75,
+      "old_price": 120
+    },
+    {
+      "id": "22",
+      "name": "Black Bodycon Short Dress",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_22.png",
+      "new_price": 60,
+      "old_price": 99
+    },
+    {
+      "id": "23",
+      "name": "Purple Coloured Womens Joggers for Gym",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_23.png",
+      "new_price": 20,
+      "old_price": 35
+    },
+    {
+      "id": "24",
+      "name": "Stylish Houndstooth Bodycon Dress",
+      "category": "Women",
+      "image": "/src/Components/Assets/product_24.png",
+      "new_price": 90,
+      "old_price": 125
+    },
+    {
+      "id": "25",
+      "name": "Boys Grey Coloured Check Coat Pants",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_25.png",
+      "new_price": 60,
+      "old_price": 75
+    },
+    {
+      "id": "26",
+      "name": "Girls Black Varsity Jacket",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_26.png",
+      "new_price": 60,
+      "old_price": 75
+    },
+    {
+      "id": "27",
+      "name": "Boys Grey Sytlish Bomber Jacket",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_27.png",
+      "new_price": 50,
+      "old_price": 75
+    },
+    {
+      "id": "28",
+      "name": "Boys Green Fur Jaket",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_28.png",
+      "new_price": 55,
+      "old_price": 80
+    },
+    {
+      "id": "29",
+      "name": "Boys Blue Coloured Check Shirt",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_29.png",
+      "new_price": 20,
+      "old_price": 40
+    },
+    {
+      "id": "30",
+      "name": "Cute Maroon Short Dress for Girls",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_30.png",
+      "new_price": 65,
+      "old_price": 90
+    },
+    {
+      "id": "31",
+      "name": "Girls Brown Sweater",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_31.png",
+      "new_price": 40,
+      "old_price": 55
+    },
+    {
+      "id": "32",
+      "name": "Stylish Star Themed Dress For Girls",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_32.png",
+      "new_price": 100,
+      "old_price": 125
+    },
+    {
+      "id": "33",
+      "name": "Black Varsity Jacket for Boys",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_33.png",
+      "new_price": 55,
+      "old_price": 70
+    },
+    {
+      "id": "34",
+      "name": "Boys Blue Stylish Denim Shirt",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_34.png",
+      "new_price": 30,
+      "old_price": 50
+    },
+    {
+      "id": "35",
+      "name": "Floral Print Blue Dress For Girls",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_35.png",
+      "new_price": 75,
+      "old_price": 100
+    },
+    {
+      "id": "36",
+      "name": "Cute Pink Gown for Girls",
+      "category": "Kid",
+      "image": "/src/Components/Assets/product_36.png",
+      "new_price": 90,
+      "old_price": 115
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1720257000000",
+      "fullName": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "phone": "+91 9988776655",
+      "address": "45, Prestige Enclave",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400001",
+      "paymentMethod": "UPI",
+      "items": [
+        {
+          "id": 1,
+          "name": "Dark Blue Mens Oversized Fur Jacket",
+          "size": "L",
+          "quantity": 1,
+          "price": 2250
+        }
+      ],
+      "totalAmount": 2250,
+      "date": "06/07/2026",
+      "status": "Delivered"
+    },
+    {
+      "id": "ORD-1720258000000",
+      "fullName": "Ananya Patel",
+      "email": "ananya@example.com",
+      "phone": "+91 9876543219",
+      "address": "12, Green Glen Layout",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560103",
+      "paymentMethod": "Card",
+      "items": [
+        {
+          "id": 3,
+          "name": "Blue Coloured Stylish Denim Shirt",
+          "size": "M",
+          "quantity": 2,
+          "price": 2000
+        }
+      ],
+      "totalAmount": 4000,
+      "date": "06/07/2026",
+      "status": "Cancelled"
+    },
+    {
+      "id": "ORD-1720259000000",
+      "fullName": "Rahul Verma",
+      "email": "rahul@example.com",
+      "phone": "+91 9123456780",
+      "address": "8B, Sector 15",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "pincode": "122001",
+      "paymentMethod": "COD",
+      "items": [
+        {
+          "id": 2,
+          "name": "Brown Mens Leather Jacket",
+          "size": "XL",
+          "quantity": 1,
+          "price": 2000
+        },
+        {
+          "id": 36,
+          "name": "Cute Pink Gown for Girls",
+          "size": "S",
+          "quantity": 1,
+          "price": 4500
+        }
+      ],
+      "totalAmount": 6500,
+      "date": "06/07/2026",
+      "status": "Delivered"
+    },
+    {
+      "fullName": "PrEm",
+      "email": "premgehlot002@gmail.com",
+      "phone": "1234567890",
+      "address": "1116 memnagar Ahmedabad ",
+      "city": "AHMEDABAD",
+      "state": "GUJARAT",
+      "pincode": "123456",
+      "paymentMethod": "UPI",
+      "items": [
+        {
+          "id": "36",
+          "name": "Cute Pink Gown for Girls",
+          "size": "M",
+          "quantity": 1,
+          "price": 4500
+        }
+      ],
+      "totalAmount": 4500,
+      "id": "9ghwDp79qmc",
+      "date": "7/7/2026",
+      "status": "Delivered"
+    },
+    {
+      "fullName": "rahul",
+      "email": "rahul@gmai.com",
+      "phone": "1234567890",
+      "address": "sutharo ka vas",
+      "city": "AHMEDABAD",
+      "state": "GUJARAT",
+      "pincode": "123456",
+      "paymentMethod": "UPI",
+      "items": [
+        {
+          "id": "25",
+          "name": "Boys Grey Coloured Check Coat Pants",
+          "size": "M",
+          "quantity": 1,
+          "price": 3000
+        }
+      ],
+      "totalAmount": 3000,
+      "id": "JaY6uTbtnmY",
+      "date": "7/7/2026",
+      "status": "Cancelled"
+    },
+    {
+      "fullName": "Naman Mathur",
+      "email": "prem@123.com",
+      "phone": "+915446895762",
+      "address": "asefasefhi",
+      "city": "dfdsf",
+      "state": "SDF",
+      "pincode": "306401",
+      "paymentMethod": "UPI",
+      "items": [
+        {
+          "id": "28",
+          "name": "Boys Green Fur Jaket",
+          "size": "L",
+          "quantity": 1,
+          "price": 2750
+        }
+      ],
+      "totalAmount": 2750,
+      "id": "6O04fTEznRw",
+      "date": "16/7/2026",
+      "status": "Delivered"
+    },
+    {
+      "fullName": "Naman Mathur",
+      "email": "prem@123.com",
+      "phone": "+915446895762",
+      "address": "asefasefhi",
+      "city": "dfdsf",
+      "state": "SDF",
+      "pincode": "132345",
+      "paymentMethod": "UPI",
+      "items": [
+        {
+          "id": "11",
+          "name": "Mens Korean Pleated Creame Pants",
+          "size": "M",
+          "quantity": 1,
+          "price": 3500
+        }
+      ],
+      "totalAmount": 3500,
+      "id": "DkgC3IOMul8",
+      "date": "17/7/2026",
+      "status": "Delivered"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "phone": "+91 9988776655",
+      "joined": "12/05/2026"
+    },
+    {
+      "id": "2",
+      "name": "Ananya Patel",
+      "email": "ananya@example.com",
+      "phone": "+91 9876543219",
+      "joined": "18/06/2026"
+    },
+    {
+      "id": "3",
+      "name": "Rahul Verma",
+      "email": "rahul@example.com",
+      "phone": "+91 9123456780",
+      "joined": "01/07/2026"
+    },
+    {
+      "id": "nW_rHMfDRVo",
+      "name": "rahul",
+      "email": "rahul@gmai.com",
+      "phone": "",
+      "joined": "7/7/2026"
+    },
+    {
+      "id": "5iDQF4u00g0",
+      "name": "prem",
+      "email": "prem@123.com",
+      "phone": "",
+      "joined": "16/7/2026"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
