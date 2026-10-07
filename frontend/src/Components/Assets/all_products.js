@@ -36,366 +36,42 @@ import p35_img from "./product_35.png";
 import p36_img from "./product_36.png";
 
 let all_product = [
-
-    {
-        id: 1,
-        name: 'Dark Blue Mens Oversized Fur Jacket',
-        category: 'Men',
-        image: p1_img,
-        new_price: 45,
-        old_price: 60,
-
-    },
-    
-    {
-        id: 2,
-        name: 'Brown Mens Leather Jacket',
-        category: 'Men',
-        image: p2_img,
-        new_price: 40,
-        old_price: 55,
-
-    },
-
-    {
-        id: 3,
-        name: 'Blue Coloured Stylish Denim Shirt',
-        category: 'Men',
-        image: p3_img,
-        new_price: 40,
-        old_price: 65,
-
-    },
-    
-    {
-        id: 4,
-        name: 'Olive Coloured Mens Plain Shirt',
-        category: 'Men',
-        image: p4_img,
-        new_price: 25,
-        old_price: 30,
-
-    },
-
-    {
-        id: 5,
-        name: 'Mens White Polos',
-        category: 'Men',
-        image: p5_img,
-        new_price: 40,
-        old_price: 50,
-
-    },
-    
-    {
-        id: 6,
-        name: 'Mens Brown Varsity Jacket',
-        category: 'Men',
-        image: p6_img,
-        new_price: 65,
-        old_price: 80,
-
-    },
-
-    {
-        id: 7,
-        name: 'Mens Oversized Grey Coloured T-Shirt',
-        category: 'Men',
-        image: p7_img,
-        new_price: 40,
-        old_price: 65,
-
-    },
-    
-    {
-        id: 8,
-        name: 'Grey Coloured Mens Puffer Jacket',
-        category: 'Men',
-        image: p8_img,
-        new_price: 55,
-        old_price: 80,
-
-    },
-
-    {
-        id: 9,
-        name: 'Grey Coloured Mens Gymwear',
-        category: 'Men',
-        image: p9_img,
-        new_price: 29,
-        old_price: 49,
-
-    },
-    
-    {
-        id: 10,
-        name: 'Floral Blue Beach Look Shirt',
-        category: 'Men',
-        image: p10_img,
-        new_price: 45,
-        old_price: 85,
-
-    },
-
-    {
-        id: 11,
-        name: 'Mens Korean Pleated Creame Pants',
-        category: 'Men',
-        image: p11_img,
-        new_price: 70,
-        old_price: 120,
-
-    },
-    
-    {
-        id: 12,
-        name: 'Mens Denim Blue Baggy Pants',
-        category: 'Men',
-        image: p12_img,
-        new_price: 60,
-        old_price: 100,
-
-    },
-
-    {
-        id: 13,
-        name: 'Brown Coloured Womens Cute Dress',
-        category: 'Women',
-        image: p13_img,
-        new_price: 75,
-        old_price: 125,
-
-    },
-    
-    {
-        id: 14,
-        name: 'Womens Vintage Maroon Dress',
-        category: 'Women',
-        image: p14_img,
-        new_price: 50,
-        old_price: 75,
-
-    },
-
-    {
-        id: 15,
-        name: 'Womens Oversized Creme Flannel Shirt',
-        category: 'Women',
-        image: p15_img,
-        new_price: 40,
-        old_price: 60,
-
-    },
-    
-    {
-        id: 16,
-        name: 'Bottle Green Womens Top',
-        category: 'Women',
-        image: p16_img,
-        new_price: 30,
-        old_price: 45,
-
-    },
-
-    {
-        id: 17,
-        name: 'Womens Oversized Coat',
-        category: 'Women',
-        image: p17_img,
-        new_price: 99,
-        old_price: 125,
-
-    },
-    
-    {
-        id: 18,
-        name: 'Womens Stylish Blue Summer Dress',
-        category: 'Women',
-        image: p18_img,
-        new_price: 30,
-        old_price: 45,
-
-    },
-
-    {
-        id: 19,
-        name: 'Womens Pink Coloured Knitted Top',
-        category: 'Women',
-        image: p19_img,
-        new_price: 40,
-        old_price: 75,
-
-    },
-    
-    {
-        id: 20,
-        name: 'Party Wear Pink Bodycon Dress',
-        category: 'Women',
-        image: p20_img,
-        new_price: 120,
-        old_price: 200,
-
-    },
-
-    {
-        id: 21,
-        name: 'Red Coloured Floral Print Dress',
-        category: 'Women',
-        image: p21_img,
-        new_price: 75,
-        old_price: 120,
-
-    },
-    
-    {
-        id: 22,
-        name: 'Black Bodycon Short Dress',
-        category: 'Women',
-        image: p22_img,
-        new_price: 60,
-        old_price: 99,
-
-    },
-
-    {
-        id: 23,
-        name: 'Purple Coloured Womens Joggers for Gym',
-        category: 'Women',
-        image: p23_img,
-        new_price: 20,
-        old_price: 35,
-
-    },
-    
-    {
-        id: 24,
-        name: 'Stylish Houndstooth Bodycon Dress',
-        category: 'Women',
-        image: p24_img,
-        new_price: 90,
-        old_price: 125,
-
-    },
-
-    {
-        id: 25,
-        name: 'Boys Grey Coloured Check Coat Pants',
-        category: 'Kid',
-        image: p25_img,
-        new_price: 60,
-        old_price: 75,
-
-    },
-    
-    {
-        id: 26,
-        name: 'Girls Black Varsity Jacket',
-        category: 'Kid',
-        image: p26_img,
-        new_price: 60,
-        old_price: 75,
-
-    },
-
-    {
-        id: 27,
-        name: 'Boys Grey Sytlish Bomber Jacket',
-        category: 'Kid',
-        image: p27_img,
-        new_price: 50,
-        old_price: 75,
-
-    },
-    
-    {
-        id: 28,
-        name: 'Boys Green Fur Jaket',
-        category: 'Kid',
-        image: p28_img,
-        new_price: 55,
-        old_price: 80,
-
-    },
-
-    {
-        id: 29,
-        name: 'Boys Blue Coloured Check Shirt',
-        category: 'Kid',
-        image: p29_img,
-        new_price: 20,
-        old_price: 40,
-
-    },
-    
-    {
-        id: 30,
-        name: 'Cute Maroon Short Dress for Girls',
-        category: 'Kid',
-        image: p30_img,
-        new_price: 65,
-        old_price: 90,
-
-    },
-
-    {
-        id: 31,
-        name: 'Girls Brown Sweater',
-        category: 'Kid',
-        image: p31_img,
-        new_price: 40,
-        old_price: 55,
-
-    },
-    
-    {
-        id: 32,
-        name: 'Stylish Star Themed Dress For Girls',
-        category: 'Kid',
-        image: p32_img,
-        new_price: 100,
-        old_price: 125,
-
-    },
-
-    {
-        id: 33,
-        name: 'Black Varsity Jacket for Boys',
-        category: 'Kid',
-        image: p33_img,
-        new_price: 55,
-        old_price: 70.
-
-    },
-    
-    {
-        id: 34,
-        name: 'Boys Blue Stylish Denim Shirt',
-        category: 'Kid',
-        image: p34_img,
-        new_price: 30,
-        old_price: 50,
-
-    },
-
-    {
-        id: 35,
-        name: 'Floral Print Blue Dress For Girls',
-        category: 'Kid',
-        image: p35_img,
-        new_price: 75,
-        old_price: 100,
-
-    },
-    
-    {
-        id: 36,
-        name: 'Cute Pink Gown for Girls',
-        category: 'Kid',
-        image: p36_img,
-        new_price: 90,
-        old_price: 115,
-
-    },
+  { id: 1, name: "Dark Blue Mens Oversized Fur Jacket", category: "Men", image: p1_img, new_price: 2499, old_price: 3499 },
+  { id: 2, name: "Brown Mens Leather Jacket", category: "Men", image: p2_img, new_price: 2999, old_price: 3999 },
+  { id: 3, name: "Blue Coloured Stylish Denim Shirt", category: "Men", image: p3_img, new_price: 1299, old_price: 1899 },
+  { id: 4, name: "Olive Coloured Mens Plain Shirt", category: "Men", image: p4_img, new_price: 999, old_price: 1499 },
+  { id: 5, name: "Mens White Polos", category: "Men", image: p5_img, new_price: 899, old_price: 1299 },
+  { id: 6, name: "Mens Brown Varsity Jacket", category: "Men", image: p6_img, new_price: 3499, old_price: 4499 },
+  { id: 7, name: "Mens Oversized Grey Coloured T-Shirt", category: "Men", image: p7_img, new_price: 799, old_price: 1199 },
+  { id: 8, name: "Grey Coloured Mens Puffer Jacket", category: "Men", image: p8_img, new_price: 2799, old_price: 3799 },
+  { id: 9, name: "Grey Coloured Mens Gymwear", category: "Men", image: p9_img, new_price: 1199, old_price: 1699 },
+  { id: 10, name: "Floral Blue Beach Look Shirt", category: "Men", image: p10_img, new_price: 1499, old_price: 2199 },
+  { id: 11, name: "Mens Korean Pleated Creame Pants", category: "Men", image: p11_img, new_price: 1899, old_price: 2599 },
+  { id: 12, name: "Mens Denim Blue Baggy Pants", category: "Men", image: p12_img, new_price: 1799, old_price: 2399 },
+  { id: 13, name: "Brown Coloured Womens Cute Dress", category: "Women", image: p13_img, new_price: 2199, old_price: 3199 },
+  { id: 14, name: "Womens Vintage Maroon Dress", category: "Women", image: p14_img, new_price: 1999, old_price: 2899 },
+  { id: 15, name: "Womens Oversized Creme Flannel Shirt", category: "Women", image: p15_img, new_price: 1299, old_price: 1799 },
+  { id: 16, name: "Bottle Green Womens Top", category: "Women", image: p16_img, new_price: 999, old_price: 1499 },
+  { id: 17, name: "Womens Denim Short Dress", category: "Women", image: p17_img, new_price: 1699, old_price: 2299 },
+  { id: 18, name: "Womens Floral Print Summer Dress", category: "Women", image: p18_img, new_price: 1899, old_price: 2499 },
+  { id: 19, name: "Womens White Casual Crop Top", category: "Women", image: p19_img, new_price: 799, old_price: 1199 },
+  { id: 20, name: "Womens Classic Black Blazer", category: "Women", image: p20_img, new_price: 2999, old_price: 3999 },
+  { id: 21, name: "Womens Pink Pleated Skirt", category: "Women", image: p21_img, new_price: 1299, old_price: 1799 },
+  { id: 22, name: "Black Bodycon Short Dress", category: "Women", image: p22_img, new_price: 1999, old_price: 2799 },
+  { id: 23, name: "Purple Coloured Womens Joggers for Gym", category: "Women", image: p23_img, new_price: 999, old_price: 1499 },
+  { id: 24, name: "Stylish Houndstooth Bodycon Dress", category: "Women", image: p24_img, new_price: 2499, old_price: 3299 },
+  { id: 25, name: "Boys Grey Coloured Check Coat Pants", category: "Kid", image: p25_img, new_price: 1499, old_price: 1999 },
+  { id: 26, name: "Girls Black Varsity Jacket", category: "Kid", image: p26_img, new_price: 1599, old_price: 2199 },
+  { id: 27, name: "Boys Grey Stylish Bomber Jacket", category: "Kid", image: p27_img, new_price: 1299, old_price: 1799 },
+  { id: 28, name: "Boys Green Fur Jacket", category: "Kid", image: p28_img, new_price: 1399, old_price: 1899 },
+  { id: 29, name: "Boys Blue Coloured Check Shirt", category: "Kid", image: p29_img, new_price: 699, old_price: 999 },
+  { id: 30, name: "Cute Maroon Short Dress for Girls", category: "Kid", image: p30_img, new_price: 1699, old_price: 2299 },
+  { id: 31, name: "Girls Brown Sweater", category: "Kid", image: p31_img, new_price: 999, old_price: 1399 },
+  { id: 32, name: "Stylish Star Themed Dress For Girls", category: "Kid", image: p32_img, new_price: 1899, old_price: 2499 },
+  { id: 33, name: "Black Varsity Jacket for Boys", category: "Kid", image: p33_img, new_price: 1399, old_price: 1799 },
+  { id: 34, name: "Boys Blue Stylish Denim Shirt", category: "Kid", image: p34_img, new_price: 799, old_price: 1199 },
+  { id: 35, name: "Floral Print Blue Dress For Girls", category: "Kid", image: p35_img, new_price: 1799, old_price: 2399 },
+  { id: 36, name: "Cute Pink Gown for Girls", category: "Kid", image: p36_img, new_price: 1999, old_price: 2699 },
 ];
 
 export default all_product;
